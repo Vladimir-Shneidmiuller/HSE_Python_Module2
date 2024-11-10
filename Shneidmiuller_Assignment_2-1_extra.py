@@ -1,3 +1,22 @@
+"""
+Задание 2.
+При следующих входных данных:
+boys = ['Peter', 'Alex', 'John', 'Arthur', 'Richard']
+girls = ['Kate', 'Liza', 'Kira', 'Emma', 'Trisha']
+Выводится на экран:
+Идеальные пары:
+Alex и Emma
+Arthur и Kate
+John и Kira
+Peter и Liza
+Richard и Trisha
+При следующих входных данных:
+boys = ['Peter', 'Alex', 'John', 'Arthur', 'Richard', 'Michael']
+girls = ['Kate', 'Liza', 'Kira', 'Emma', 'Trisha']
+Выводится на экран:
+Внимание, кто-то может остаться без пары!
+"""
+
 input_boys_string = str(input("Enter boys' names for list, separated by spaces: "))
 input_girls_string = str(input("Enter girls' names for list, separated by spaces: "))
 boys_list = input_boys_string.split()  
